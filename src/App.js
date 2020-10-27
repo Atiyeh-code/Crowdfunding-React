@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import "./App.css";
 import LoginPage from "./pages/LoginPage";
+import LogoutPage from "./pages/LogoutPage";
+
 import Projects from "./pages/Projects";
 
 
@@ -16,6 +18,8 @@ function App() {
         <Switch>
           <Route path="/project/:id"><ProjectPage /> </Route>
           <Route path="/login"> <LoginPage/> </Route>
+          <Route path="/logout"> <LogoutPage/> </Route>
+
           <Route path="/projects"> <Projects/> </Route>
           <Route path="/"> <HomePage /> </Route>
         </Switch>
