@@ -17,11 +17,11 @@ function Projects() {
         }, []);
         
 return (
-<div id="project-list">
+    <div id="project-list">
         {projectList.map((projectData, key) => { 
          return <ProjectCard key={key} projectData={projectData} />;
          })}
-     </div>
+    </div>
 );
 }
 

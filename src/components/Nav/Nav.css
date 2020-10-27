@@ -3,8 +3,15 @@ Nav {
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: blanchedalmond;
+    background-color: white;
+    font-weight: bolder;
 }
 
+.nav-links ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
 
 
