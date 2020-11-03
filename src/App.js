@@ -10,6 +10,7 @@ import RegisterPage from "./pages/RegisterPage";
 import LogoutPage from "./pages/LogoutPage";
 
 import Projects from "./pages/Projects";
+import CreateProjectPage from './pages/CreateProjectPage';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
           <Route path="/logout"> <LogoutPage/> </Route>
 
           <Route path="/projects"> <Projects/> </Route>
+          <Route path="/createProject"> <CreateProjectPage/> </Route>
+
           <Route path="/"> <HomePage /> </Route>
         </Switch>
       </div>

@@ -1,9 +1,12 @@
-// import React from "react";
-// import LoginForm from "../components/LoginForm/LoginForm";
+import React from "react";
 
-// function LogoutPage () {
-//     return <Logout />;
-// }
+function LogoutPage () {
+    return  (
+    <div>
+        <logOut />
+        <h2>You are logged out. Hope to see you again</h2>
+    </div>
+    )
+}
 
-
-// export default LogoutPage;
+export default LogoutPage;

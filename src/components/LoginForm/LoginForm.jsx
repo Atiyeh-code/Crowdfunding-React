@@ -1,7 +1,9 @@
 import React, {useState} from "react";
 import { useHistory } from "react-router-dom" ;
 
-function LoginForm() {const [credentials, setCredentials] = useState({username: "", password: "" });
+function LoginForm() 
+
+    {const [credentials, setCredentials] = useState({username: "", password: "" });
     const history =useHistory();
 
     const handleChange = (e) => {
