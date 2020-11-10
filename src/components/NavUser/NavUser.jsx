@@ -8,7 +8,7 @@ function NavUser({logOut}) {
     <nav className= "nav-links">
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/createProject">Create a Projects</Link></li>
+        <li><Link to="/createProject">Create Project</Link></li>
         <li><Link to="/" onClick={logOut}>Log Out</Link></li>
       </ul>
     </nav>
